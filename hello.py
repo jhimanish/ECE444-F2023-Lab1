@@ -22,14 +22,13 @@ class NameForm(FlaskForm):
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    email_val = False
     form = NameForm()
     if form.validate_on_submit():
         old_name = session.get("name")
         if old_name is not None and old_name != form.name.data:
             flash("Looks like you have changed your name!")
         if "utoronto" in form.email.data:
-            email_val = True
+            session["email_val"] = True
         else:
             flash("Please use your UofT Email")
         session["name"] = form.name.data
@@ -40,7 +39,7 @@ def index():
         form=form,
         name=session.get("name"),
         email=session.get("email"),
-        email_val=email_val,
+        email_val=session.get("email_val"),
     )
 
 
