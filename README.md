@@ -20,7 +20,7 @@ Note: This repo is a clone of https://github.com/miguelgrinberg/flasky
 ![Alt text](Activity3.png)
 
 ### Activity 3 Demo
-![Alt text](Activity3-Demo.png)
+![Alt text](Activity3-demo.png)
 
 ## Activity 4
 ### Step 1 Commit
