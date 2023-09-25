@@ -30,6 +30,7 @@ def index():
         if "utoronto" in form.email.data:
             session["email_val"] = True
         else:
+            session["email_val"] = False
             flash("Please use your UofT Email")
         session["name"] = form.name.data
         session["email"] = form.email.data
