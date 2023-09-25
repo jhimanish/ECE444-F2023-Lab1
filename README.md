@@ -21,3 +21,22 @@ Note: This repo is a clone of https://github.com/miguelgrinberg/flasky
 
 ### Activity 3 Demo
 ![Alt text](Activity3-Demo.png)
+
+## Activity 4
+### Step 1 Commit
+![Alt text](Activity4-Step1.png)
+
+### Step 2 Commit
+![Alt text](Activity4-Step2.png)
+
+### Activity 4 Demo
+![Alt text](Activity4-Demo.png)
+
+### Activity 4 Success
+![Alt text](Activity4-Success.png)
+
+### Activity 4 Email Check
+![Alt text](Activity4-emailcheck.png)
+
+### Activity 4 UofT Email Check
+![Alt text](Activity4-UofTemailcheck.png)
